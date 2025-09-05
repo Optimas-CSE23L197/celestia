@@ -1150,7 +1150,6 @@ footer .footer-wrapper .footer-box ul li a {
   .menu-part ul.show-menu {
     display: flex;
     flex-direction: column;
-    gap: 30px;
   }
 
   .menu-part ul.show-menu li:not(.login) {
@@ -1607,11 +1606,15 @@ footer .footer-wrapper .footer-box ul li a {
     padding-bottom: 0;
   }
 }
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 480px) {
   /* navbar */
   .logo-part figure img {
     height: 15px;
     width: 190px;
+  }
+
+  .navbar .menu-part ul {
+    gap: 0px;
   }
 
   /* banner */
@@ -1650,44 +1653,46 @@ footer .footer-wrapper .footer-box ul li a {
   /* hero section seven */
   .home-sec-seven-sub-part .left-part h3 {
     font-size: 26px;
+  }
 
-    .input-wrapper {
-      flex-direction: column;
-      align-items: center;
-    }
+  .input-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .home-sec-seven-sub-part .right-part input[type="email"] {
-      padding: 13px 16px;
-    }
+  .home-sec-seven-sub-part .right-part input[type="email"] {
+    padding: 13px 16px;
+  }
 
-    .home-sec-seven-sub-part .right-part input[type="button"] {
-      padding: 10px 16px;
-    }
+  .home-sec-seven-sub-part .right-part input[type="button"] {
+    padding: 10px 16px;
+  }
 
-    /* footer */
-    footer .footer-wrapper {
-      text-align: center;
-      justify-content: center;
-    }
+  /* footer */
+  footer .footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
-    footer .footer-wrapper .footer-box {
-      width: 100%;
-    }
+  footer .footer-wrapper .footer-box {
+    width: 100%;
+  }
 
-    footer .footer-wrapper .footer-box h5 {
-      margin-bottom: 12px;
-    }
+  footer .footer-wrapper .footer-box h5 {
+    margin-bottom: 12px;
+  }
 
-    .copy-right {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding-bottom: 22px;
-    }
+  .copy-right {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 22px;
+  }
 
-    .copy-right p {
-      padding-bottom: 0px;
-      margin-bottom: 12px;
-    }
+  .copy-right p {
+    padding-bottom: 0px;
+    margin-bottom: 12px;
   }
 }
